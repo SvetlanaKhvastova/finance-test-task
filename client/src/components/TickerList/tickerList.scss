@@ -1,0 +1,93 @@
+.tickerList {
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-family: Arial, sans-serif;
+  letter-spacing: 0.025em;
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1rem;
+}
+
+.flexbox {
+  display: flex;
+}
+
+.tickerLink {
+  padding: 6px;
+  align-items: center;
+  background-color: white;
+  border-radius: 8px;
+  border: 1px solid #dadce0;
+  white-space: nowrap;
+}
+
+.tickerLink:not(:last-child) {
+  margin-right: 8px;
+}
+
+.arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 32px;
+  width: 32px;
+  min-width: 32px;
+  border-radius: 8px;
+  margin-right: 8px;
+  background: #fce8e6;
+}
+
+.price {
+  display: flex;
+  margin-right: 8px;
+  min-width: 64px;
+  flex-direction: column;
+  letter-spacing: 0.025em;
+}
+
+p {
+  color: #202124;
+  font-weight: 700;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.spanPrice {
+  color: #3c4043;
+}
+
+.change {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+}
+
+.lastTime {
+  margin-top: 5px;
+  color: darkgray;
+  opacity: 1;
+}
+
+.green {
+  color: #137333;
+}
+
+.red {
+  color: #c5221f;
+}
+
+.arrowUp {
+  fill: #137333;
+}
+
+.arrowDown {
+  fill: #c5221f;
+}
+
+.deleteIconM {
+  margin-left: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
